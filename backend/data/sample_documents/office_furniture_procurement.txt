@@ -1,0 +1,49 @@
+PROCUREMENT SPECIFICATION
+=========================
+
+Organization: Government Secretariat — General Services Division
+Document No: GSD/PROC/2025/FUR/018
+Date: 01-Aug-2025
+
+Subject: Procurement of Office Furniture for New Administrative Block
+
+1. SCOPE
+--------
+Supply, delivery and installation of modular office furniture for the
+newly constructed administrative block. Items include office tables,
+chairs, filing cabinets, and storage units.
+
+2. ITEMS REQUIRED
+------------------
+2.1 Steel Office Tables (Executive) — 50 nos.
+2.2 Steel Office Tables (Workstation) — 200 nos.
+2.3 Revolving Office Chairs (with armrest) — 250 nos.
+2.4 Visitor Chairs (steel frame) — 150 nos.
+2.5 4-Drawer Filing Cabinets — 100 nos.
+2.6 Steel Almirahs (full height) — 75 nos.
+
+3. TECHNICAL REQUIREMENTS
+--------------------------
+3.1 All steel furniture must conform to relevant BIS standards.
+3.2 Minimum 20-gauge CRCA sheet for body panels.
+3.3 Powder-coated finish in approved shade.
+3.4 Edge-banding on all exposed edges.
+3.5 Anti-tilt mechanism on filing cabinets.
+3.6 Adjustable seat height for chairs (400mm to 520mm).
+3.7 Five-star base with castor wheels for revolving chairs.
+
+4. MATERIAL REQUIREMENTS
+--------------------------
+4.1 Body: Cold Rolled Close Annealed (CRCA) steel
+4.2 Tabletop: 25mm pre-laminated particle board
+4.3 Chair upholstery: High-density foam with fabric
+
+5. STANDARDS COMPLIANCE
+------------------------
+5.1 Tables must conform to IS 4847.
+5.2 Chairs must conform to IS 5765.
+5.3 Filing cabinets and storage units must conform to IS 6665.
+
+6. WARRANTY
+-----------
+Minimum 3 years against manufacturing defects.

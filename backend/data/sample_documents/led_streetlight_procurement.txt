@@ -1,0 +1,66 @@
+PROCUREMENT SPECIFICATION
+=========================
+
+Organization: Municipal Corporation - Smart City Division
+Document No: PROC/2025/LED/0042
+Date: 15-Sep-2025
+
+Subject: Procurement of Outdoor LED Street Lighting Systems
+
+1. SCOPE
+--------
+This specification covers the procurement of outdoor LED street lighting
+systems for installation on municipal roads and public areas under the
+Smart City Mission programme.
+
+2. QUANTITY
+-----------
+Total: 500 units of LED street light luminaires
+
+3. TECHNICAL REQUIREMENTS
+--------------------------
+3.1 Type: LED Street Light Luminaire
+3.2 Wattage: 90W to 120W
+3.3 Luminous Efficacy: Minimum 120 lm/W
+3.4 Colour Temperature: 4000K to 5700K (Neutral White to Cool White)
+3.5 CRI (Colour Rendering Index): Minimum 70
+3.6 IP Rating: Minimum IP65
+3.7 Operating Voltage: 100V to 270V AC
+3.8 Power Factor: Greater than 0.95
+3.9 THD: Less than 15%
+3.10 Rated Life: Minimum 50,000 hours
+3.11 Surge Protection: Minimum 10kV
+
+4. ENVIRONMENTAL CONDITIONS
+-----------------------------
+4.1 Operating Temperature: -10°C to 50°C
+4.2 Humidity: Up to 95% RH
+4.3 Application: Outdoor, pole-mounted
+
+5. MATERIAL REQUIREMENTS
+--------------------------
+5.1 Housing: Die-cast aluminium with powder coating
+5.2 Lens: Toughened glass or polycarbonate
+5.3 Mounting: Universal bracket for 40mm to 60mm pole diameter
+
+6. SAFETY & COMPLIANCE
+------------------------
+6.1 All luminaires must conform to relevant IS standards.
+6.2 Reference standards: IS 10322, IS 16102, IS 16107.
+6.3 BIS certification (ISI Mark) is mandatory.
+6.4 Luminaires must have valid test reports from NABL accredited laboratory.
+
+7. TESTING REQUIREMENTS
+--------------------------
+7.1 Photometric testing as per IS 16107
+7.2 Safety testing as per IS 16102
+7.3 IP rating testing as per IS 12063
+7.4 Surge immunity testing as per IS/IEC 61547
+
+8. WARRANTY
+-----------
+Minimum 5 years comprehensive warranty including driver and LED module.
+
+9. DELIVERY
+-----------
+Within 90 days from date of purchase order.

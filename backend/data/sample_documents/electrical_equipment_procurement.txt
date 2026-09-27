@@ -1,0 +1,45 @@
+PROCUREMENT SPECIFICATION
+=========================
+
+Organization: PWD Electrical Division
+Document No: PWD/ELEC/2025/SW/007
+Date: 20-Jul-2025
+
+Subject: Procurement of Electrical Switches and Wiring for Government Building
+
+1. SCOPE
+--------
+Supply of electrical switches, socket outlets, PVC insulated cables, and
+flexible cords for a government office building renovation project.
+
+2. ITEMS REQUIRED
+------------------
+2.1 Modular Switches (6A/16A) — 2000 nos.
+2.2 Socket Outlets (5-pin, 16A) — 500 nos.
+2.3 PVC Insulated Cables (1.5 sq mm, single core) — 5000 metres
+2.4 PVC Insulated Cables (4 sq mm, single core) — 2000 metres
+2.5 Flexible Cords (0.75 sq mm, 3-core) — 1000 metres
+
+3. TECHNICAL REQUIREMENTS
+--------------------------
+3.1 Switches must be rated for 240V AC, 50Hz.
+3.2 All switches must comply with IS 13252.
+3.3 Cables must comply with IS 1554 (Part 1) — latest revision.
+3.4 Flexible cords must comply with IS 694.
+3.5 Flame retardant grade cables required.
+3.6 Switches must have ISI Mark certification.
+
+4. QUALITY REQUIREMENTS
+-------------------------
+4.1 BIS certification (ISI Mark) mandatory for all items.
+4.2 Valid BIS licence number must be printed on products.
+4.3 Products must have NABL-accredited test reports.
+
+5. REFERENCE TO OLD STANDARD
+------------------------------
+Note: Previous order referenced IS 1554 (Part 1):1988.
+Vendors should supply cables conforming to the latest revision.
+
+6. WARRANTY
+-----------
+Minimum 2 years for switches, 10 years for cables.
