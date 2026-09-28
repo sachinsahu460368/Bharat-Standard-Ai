@@ -2,7 +2,7 @@ import axios from 'axios';
 import type { AnalysisResponse } from './types/analysis';
 import type { ReportResponse } from './types/reports';
 
-const API_BASE = "http://localhost:8000";
+const API_BASE = import.meta.env.VITE_API_BASE_URL || "http://localhost:8000";
 
 export const analyzeFile = async (file: File): Promise<AnalysisResponse> => {
   const formData = new FormData();
