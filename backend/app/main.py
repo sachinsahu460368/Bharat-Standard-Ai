@@ -64,17 +64,23 @@ def create_app() -> FastAPI:
     )
 
     # CORS
-    # In production, specify the actual frontend domain
-    frontend_origin = "http://localhost:5173" # For development
-    if settings.app_env == "production":
-        frontend_origin = os.getenv("FRONTEND_ORIGIN", "https://your-deployed-frontend.com")
+    allowed_origins = [
+        "http://localhost:5173",
+        "http://127.0.0.1:5173",
+    ]
+    if settings.frontend_origin:
+        origins_from_env = [o.strip() for o in settings.frontend_origin.split(",") if o.strip()]
+        allowed_origins.extend(origins_from_env)
+
+    # Remove duplicates while preserving order
+    allowed_origins = list(dict.fromkeys(allowed_origins))
 
     application.add_middleware(
         CORSMiddleware,
-        allow_origins=[frontend_origin, "http://localhost:5173", "http://localhost:3000"],
+        allow_origins=allowed_origins,
         allow_credentials=True,
-        allow_methods=["*"],
-        allow_headers=["*"],
+        allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+        allow_headers=["Content-Type", "Authorization", "X-Request-Id"],
     )
 
     # Exception handler

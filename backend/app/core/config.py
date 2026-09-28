@@ -38,6 +38,7 @@ class Settings(BaseSettings):
     # Limits
     max_file_size_mb: int = 20
     ocr_min_text_length: int = 50
+    frontend_origin: str = os.getenv("FRONTEND_ORIGIN", "http://localhost:5173")
 
     @property
     def max_file_size_bytes(self) -> int:
