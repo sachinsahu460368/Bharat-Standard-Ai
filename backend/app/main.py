@@ -31,11 +31,14 @@ async def lifespan(application: FastAPI):
     logger.info("Building BM25 lexical search index…")
     lexical_search_service.build(standards_service)
 
-    logger.info("Initializing semantic search service…")
-    semantic_search_service.initialize()
-    if not semantic_search_service.has_index:
-        logger.info("Building FAISS semantic search index…")
-        semantic_search_service.build_or_refresh_index()
+    if not settings.render_demo_mode:
+        logger.info("Initializing semantic search service…")
+        semantic_search_service.initialize()
+        if not semantic_search_service.has_index:
+            logger.info("Building FAISS semantic search index…")
+            semantic_search_service.build_or_refresh_index()
+    else:
+        logger.info("Skipping semantic search service initialization due to RENDER_DEMO_MODE.")
 
     logger.info(
         "Startup complete — %d standards loaded, lexical index ready, semantic index ready: %s.",

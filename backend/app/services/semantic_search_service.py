@@ -8,10 +8,6 @@ import os
 from pathlib import Path
 from typing import Optional
 
-import faiss
-import numpy as np
-from sentence_transformers import SentenceTransformer
-
 from app.core.config import settings
 from app.schemas.standards import RecommendedStandard
 from app.services.standards_service import standards_service
@@ -26,9 +22,26 @@ class SemanticSearchService:
         self.index: Optional[faiss.Index] = None
         self._standard_ids: list[str] = []
         self._is_ready = False
+        self._disabled = settings.render_demo_mode
+        if self._disabled:
+            logger.info("Semantic search service is disabled (RENDER_DEMO_MODE=true).")
 
     def initialize(self) -> None:
         """Load model and index if available."""
+        if self._disabled:
+            logger.info("Semantic search service skipped due to RENDER_DEMO_MODE.")
+            return
+
+        # Deferred imports to avoid OOM
+        global faiss, SentenceTransformer
+        try:
+            import faiss
+            from sentence_transformers import SentenceTransformer
+        except ImportError as e:
+            logger.error("Failed to import semantic search dependencies: %s", e)
+            self._is_ready = False
+            return
+
         try:
             logger.info("Initializing semantic search service with model: %s", settings.embedding_model)
             self.model = SentenceTransformer(settings.embedding_model)
@@ -53,6 +66,9 @@ class SemanticSearchService:
         """Create or update embeddings and FAISS index."""
         if not self.model:
             raise RuntimeError("SentenceTransformer model not initialized.")
+
+        global faiss
+        import faiss
 
         all_standards = standards_service.get_all()
         if not all_standards:

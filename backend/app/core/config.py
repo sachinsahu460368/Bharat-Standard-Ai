@@ -22,6 +22,7 @@ class Settings(BaseSettings):
 
     # Embeddings
     embedding_model: str = "sentence-transformers/all-MiniLM-L6-v2"
+    render_demo_mode: bool = os.getenv("RENDER_DEMO_MODE", "false").lower() == "true"
 
     # Hybrid Search Weights
     hybrid_weight_lexical: float = 0.35
